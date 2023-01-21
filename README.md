@@ -48,3 +48,22 @@ d2['k1']['k2']
 
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 d3
+
+###############
+## Problem 4 ##
+###############
+
+# Use a set to find the unique values of the list below:
+mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
+
+
+###############
+## Problem 5 ##
+###############
+
+# You are given two variables:
+age = 4
+name = "Sammy"
+
+# Use print formatting to print the following string:
+"Hello my dog's name is Sammy and he is 4 years old"
