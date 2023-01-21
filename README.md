@@ -33,3 +33,18 @@ s = 'django'
 # Given this nested list:
 l = [3,7,[1,4,'hello']]
 1[2][2]
+
+###############
+## Problem 3 ##
+###############
+
+# Using keys and indexing, grab the 'hello' from the following dictionaries:
+
+d1 = {'simple_key':'hello'}
+d1['simple_key']
+
+d2 = {'k1':{'k2':'hello'}}
+d2['k1']['k2']
+
+d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+d3
