@@ -32,3 +32,4 @@ s = 'django'
 
 # Given this nested list:
 l = [3,7,[1,4,'hello']]
+1[2][2]
