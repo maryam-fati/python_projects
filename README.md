@@ -68,5 +68,7 @@ uni
 age = 4
 name = "Sammy"
 
+print('Hello my dog's name is {n} and he is {a} years old' .format(n= 'sammy',a= '4'))
+
 # Use print formatting to print the following string:
 "Hello my dog's name is Sammy and he is 4 years old"
