@@ -46,6 +46,7 @@ def arrayCheck(nums):
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
+  # CODE GOES HERE
   
 
 
