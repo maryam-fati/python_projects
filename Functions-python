@@ -20,6 +20,15 @@
 # arrayCheck([1, 1, 2, 1, 2, 3]) → True
 
 def arrayCheck(nums):
+#code goes here
+
+def arrayCheck(nums):
+     for i in range(0,len(nums) - 2):
+         if [1,2,3]  == nums[i:i+3]:
+             return True
+     return False
+     
+     
    
 #####################
 ## -- PROBLEM 2 -- ##
