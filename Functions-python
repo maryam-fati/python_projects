@@ -18,9 +18,8 @@
 # arrayCheck([1, 1, 2, 3, 1]) → True
 # arrayCheck([1, 1, 2, 4, 1]) → False
 # arrayCheck([1, 1, 2, 1, 2, 3]) → True
-
-def arrayCheck(nums):
 #code goes here
+ Answer
 
 def arrayCheck(nums):
      for i in range(0,len(nums) - 2):
@@ -30,7 +29,7 @@ def arrayCheck(nums):
      
  result = arraycheck([1,2,3,3,3,5,1,])
  print(result)
- True Answere 
+ True
    
 #####################
 ## -- PROBLEM 2 -- ##
@@ -44,17 +43,16 @@ def arrayCheck(nums):
 # stringBits('Hello') → 'Hlo'
 # stringBits('Hi') → 'H'
 # stringBits('Heeololeo') → 'Hello'
-
-def stringBits(str):
-  # CODE GOES HERE
+#Answer
   
-def string_bits(str):
-  result = ''
+def stringBits(str):
+  a = ''
   for i in range(len(str)):
-    if i % 2 == 0:
-      result += str[i]
-      
-  return result
+   a += str[:i] +s[i]
+    return a
+
+print (str("Hlo"))
+Hlo
 
 #####################
 ## -- PROBLEM 3 -- ##
@@ -76,6 +74,9 @@ def string_bits(str):
 
 def end_other(a, b):
   # CODE GOES HERE
+  
+  
+ 
 
 #####################
 ## -- PROBLEM 4 -- ##
