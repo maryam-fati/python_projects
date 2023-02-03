@@ -70,10 +70,10 @@ Hlo
 # end_other('Hiabc', 'abc') → True
 # end_other('AbC', 'HiaBc') → True
 # end_other('abc', 'abXabc') → True
-
+#Answer
 
 def end_other(a, b):
-  # CODE GOES HERE
+ 
   
   
  
