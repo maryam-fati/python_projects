@@ -73,10 +73,15 @@ Hlo
 #Answer
 
 def end_other(a, b):
+
+    a1 = a.lower()
+    b1 = b.lower()
  
-  
-  
- 
+    if a1.endswith(b1) or b1.endswith(a1):
+        return True
+    else:
+        return False
+    
 
 #####################
 ## -- PROBLEM 4 -- ##
@@ -88,9 +93,14 @@ def end_other(a, b):
 # doubleChar('The') → 'TThhee'
 # doubleChar('AAbb') → 'AAAAbbbb'
 # doubleChar('Hi-There') → 'HHii--TThheerree'
+#Answer
 
-def doubleChar(str):
-  # CODE GOES HERE
+def double_char(str):
+    result = ""
+    for i in range len(str):
+        result = result + str[i]
+        result = result + str[i]
+    return result
 
 
 #####################
@@ -113,6 +123,7 @@ def doubleChar(str):
 # no_teen_sum(1, 2, 3) → 6
 # no_teen_sum(2, 13, 1) → 3
 # no_teen_sum(2, 1, 14) → 3
+#answer
 
 def no_teen_sum(a, b, c):
   # CODE GOES HERE
