@@ -127,8 +127,20 @@ def double_char(str):
 
 def no_teen_sum(a, b, c):
   # CODE GOES HERE
+
+    total = 0
+    for i in (a, b, c):
+        if i in range(13, 20):
+            x = 0
+        else:
+            x = 1
+        total += i*x
+    return total
 def fix_teen(n):
   # CODE GOES HERE
+  
+  teens = {13, 14, 17, 18, 19}
+  return 0 if n in teens else n
 
 #####################
 ## -- PROBLEM 6 -- ##
